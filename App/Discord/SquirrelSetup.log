@@ -1,0 +1,84 @@
+﻿2828> 2019-05-24 20:18:45> Program: Starting Squirrel Updater: --createShortcut Discord.exe --setupIcon C:\Users\user\AppData\Local\Discord\app.ico
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: About to create shortcuts for Discord.exe, rootAppDir C:\Users\user\AppData\Local\Discord
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: Creating shortcut for Discord.exe => C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc.\Discord.lnk
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: About to save shortcut: C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc.\Discord.lnk (target C:\Users\user\AppData\Local\Discord\Update.exe, workingDir C:\Users\user\AppData\Local\Discord\app-0.0.301, args --processStart Discord.exe)
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: Creating shortcut for Discord.exe => C:\Users\user\Desktop\Discord.lnk
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: About to save shortcut: C:\Users\user\Desktop\Discord.lnk (target C:\Users\user\AppData\Local\Discord\Update.exe, workingDir C:\Users\user\AppData\Local\Discord\app-0.0.301, args --processStart Discord.exe)
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: fixPinnedExecutables: newCurrentFolder: app-0.0.301
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: File 'C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\Accessibility\Narrator.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: Updating shortcut C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk
+2828> 2019-05-24 20:18:45> ApplyReleasesImpl: Updating shortcut C:\Users\user\Desktop\Discord.lnk
+3952> 2019-05-24 20:18:46> Program: Starting Squirrel Updater: --check https://discordapp.com/api/updates/stable
+3952> 2019-05-24 20:18:46> Program: Fetching update information, downloading from https://discordapp.com/api/updates/stable
+3952> 2019-05-24 20:18:46> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+3952> 2019-05-24 20:18:46> CheckForUpdateImpl: Downloading RELEASES file from https://discordapp.com/api/updates/stable
+3952> 2019-05-24 20:18:47> FileDownloader: Downloading url: https://discordapp.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.301&arch=amd64
+3952> 2019-05-24 20:18:47> CheckForUpdateImpl: Remote version 0.0.305 differs from local 0.0.301
+4840> 2019-05-24 20:18:47> Program: Starting Squirrel Updater: --update https://discordapp.com/api/updates/stable
+4840> 2019-05-24 20:18:47> Program: Starting update, downloading from https://discordapp.com/api/updates/stable
+4840> 2019-05-24 20:18:47> Program: About to update to: C:\Users\user\AppData\Local\Discord
+4840> 2019-05-24 20:18:47> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+4840> 2019-05-24 20:18:47> CheckForUpdateImpl: Downloading RELEASES file from https://discordapp.com/api/updates/stable
+4840> 2019-05-24 20:18:47> FileDownloader: Downloading url: https://discordapp.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.301&arch=amd64
+4840> 2019-05-24 20:18:47> CheckForUpdateImpl: Remote version 0.0.305 differs from local 0.0.301
+4840> 2019-05-24 20:18:47> DownloadReleasesImpl: Downloading update from https://discordapp.com/api/updates/stable
+4840> 2019-05-24 20:18:47> FileDownloader: Downloading file: http://dl.discordapp.net/apps/win/Discord-0.0.305-full.nupkg
+4840> 2019-05-24 20:19:14> ApplyReleasesImpl: Writing files to app directory: C:\Users\user\AppData\Local\Discord\app-0.0.305
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\d3dcompiler_47.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\d3dcompiler_47.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\app.ico to C:\Users\user\AppData\Local\Discord\app-0.0.305\app.ico
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\chrome_100_percent.pak to C:\Users\user\AppData\Local\Discord\app-0.0.305\chrome_100_percent.pak
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\chrome_200_percent.pak to C:\Users\user\AppData\Local\Discord\app-0.0.305\chrome_200_percent.pak
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\Discord.exe to C:\Users\user\AppData\Local\Discord\app-0.0.305\Discord.exe
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\ffmpeg.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\ffmpeg.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\icudtl.dat to C:\Users\user\AppData\Local\Discord\app-0.0.305\icudtl.dat
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\libEGL.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\libEGL.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\libGLESv2.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\libGLESv2.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\natives_blob.bin to C:\Users\user\AppData\Local\Discord\app-0.0.305\natives_blob.bin
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\osmesa.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\osmesa.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\resources.pak to C:\Users\user\AppData\Local\Discord\app-0.0.305\resources.pak
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\snapshot_blob.bin to C:\Users\user\AppData\Local\Discord\app-0.0.305\snapshot_blob.bin
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\v8_context_snapshot.bin to C:\Users\user\AppData\Local\Discord\app-0.0.305\v8_context_snapshot.bin
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\VkLayer_core_validation.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\VkLayer_core_validation.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\VkLayer_parameter_validation.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\VkLayer_parameter_validation.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\Squirrel.exe to C:\Users\user\AppData\Local\Discord\app-0.0.305\Squirrel.exe
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\VkICD_mock_icd.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\VkICD_mock_icd.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\VkLayer_object_tracker.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\VkLayer_object_tracker.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\VkLayer_threading.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\VkLayer_threading.dll
+4840> 2019-05-24 20:19:15> ApplyReleasesImpl: Moving file C:\Users\user\AppData\Local\Discord\app-0.0.305\lib\net45\VkLayer_unique_objects.dll to C:\Users\user\AppData\Local\Discord\app-0.0.305\VkLayer_unique_objects.dll
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: Started updateSelf pid 852
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\user\AppData\Local\Discord\app-0.0.305\Discord.exe]
+4840> 2019-05-24 20:19:16> Utility: Process Started: C:\Users\user\AppData\Local\Discord\app-0.0.305\Discord.exe --squirrel-updated 0.0.305, pid 2320
+4840> 2019-05-24 20:19:16> Utility: Received exitcode 0 from process C:\Users\user\AppData\Local\Discord\app-0.0.305\Discord.exe
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: Starting fixPinnedExecutables
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: fixPinnedExecutables: newCurrentFolder: app-0.0.305
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: File 'C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories\Accessibility\Narrator.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: Updating shortcut C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: Updating shortcut C:\Users\user\Desktop\Discord.lnk
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: Fixing up tray icons
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: cleanDeadVersions: for version 0.0.305
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: cleanDeadVersions: exclude original version folder app-0.0.301
+4840> 2019-05-24 20:19:16> ApplyReleasesImpl: cleanDeadVersions: exclude current version folder app-0.0.305
+4760> 2019-05-24 20:19:17> Program: Starting Squirrel Updater: --check https://discordapp.com/api/updates/stable
+4760> 2019-05-24 20:19:17> Program: Fetching update information, downloading from https://discordapp.com/api/updates/stable
+4760> 2019-05-24 20:19:17> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+4760> 2019-05-24 20:19:17> CheckForUpdateImpl: Downloading RELEASES file from https://discordapp.com/api/updates/stable
+4760> 2019-05-24 20:19:17> FileDownloader: Downloading url: https://discordapp.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.305&arch=amd64
+4760> 2019-05-24 20:19:17> CheckForUpdateImpl: No updates
+4456> 2019-05-24 20:19:23> Program: Starting Squirrel Updater: --check https://discordapp.com/api/updates/stable
+4456> 2019-05-24 20:19:23> Program: Fetching update information, downloading from https://discordapp.com/api/updates/stable
+4456> 2019-05-24 20:19:23> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+4456> 2019-05-24 20:19:23> CheckForUpdateImpl: Downloading RELEASES file from https://discordapp.com/api/updates/stable
+4456> 2019-05-24 20:19:23> FileDownloader: Downloading url: https://discordapp.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.305&arch=amd64
+4456> 2019-05-24 20:19:24> CheckForUpdateImpl: No updates
+1352> 2019-05-24 20:19:26> Program: Starting Squirrel Updater: --check https://discordapp.com/api/updates/stable
+1352> 2019-05-24 20:19:26> Program: Fetching update information, downloading from https://discordapp.com/api/updates/stable
+1352> 2019-05-24 20:19:26> SingleGlobalInstance: Grabbing lockfile with timeout of 00:00:10
+1352> 2019-05-24 20:19:26> CheckForUpdateImpl: Downloading RELEASES file from https://discordapp.com/api/updates/stable
+1352> 2019-05-24 20:19:26> FileDownloader: Downloading url: https://discordapp.com/api/updates/stable/RELEASES?id=Discord&localVersion=0.0.305&arch=amd64
+1352> 2019-05-24 20:19:27> CheckForUpdateImpl: No updates
